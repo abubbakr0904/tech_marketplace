@@ -33,7 +33,7 @@ class ThreeButton extends StatelessWidget {
                 width: pw,
                 margin: EdgeInsets.symmetric(horizontal: 20.w),
                 child : Center(
-                  child: Text("Page 1" , style: AppTextStyle.interSemiBold.copyWith(
+                  child: Text("GridView Counter" , style: AppTextStyle.interSemiBold.copyWith(
                     color : Colors.white,
                     fontSize: 20.sp,
                   ),),
@@ -56,7 +56,7 @@ class ThreeButton extends StatelessWidget {
                   width: pw,
                   margin: EdgeInsets.symmetric(horizontal: 20.w),
                   child : Center(
-                    child: Text("Page 2" , style: AppTextStyle.interSemiBold.copyWith(
+                    child: Text("GridView Builder" , style: AppTextStyle.interSemiBold.copyWith(
                       color : Colors.white,
                       fontSize: 20.sp,
                     ),),
@@ -64,25 +64,7 @@ class ThreeButton extends StatelessWidget {
               ),
             ),
             SizedBox(height: 15.h,),
-            InkWell(
-              onTap: (){},
-              child: Container(
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.all(
-                    Radius.circular(20.r)
-                  ),
-                  color : Colors.blue
-                ),
-                  width: pw,
-                  margin: EdgeInsets.symmetric(horizontal: 20.w),
-                  child : Center(
-                    child: Text("Page 3" , style: AppTextStyle.interSemiBold.copyWith(
-                      color : Colors.white,
-                      fontSize: 20.sp,
-                    ),),
-                  )
-              ),
-            ),
+
           ],
         )
       )

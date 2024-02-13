@@ -29,7 +29,10 @@ class _Catigories2State extends State<Catigories2> {
                   top: 61.h,
                   left: 20.w
               ),
-              child : InkWell(onTap : (){} ,
+              child : InkWell(onTap : (){
+                Navigator.pop(context);
+
+              } ,
                   borderRadius: const BorderRadius.all(
                     Radius.circular(20),
                   ),
